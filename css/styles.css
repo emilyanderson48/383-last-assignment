@@ -88,3 +88,121 @@ footer h3 {
 input {
    margin: .25rem 6rem!important;
 }
+
+/* sources styling START */
+
+#sources-section-1 {
+   background-color: black;
+   color: white;
+   padding-bottom: 10rem;
+
+
+}
+#sources-section-1 h3 {
+font-size: 2rem!important;
+
+
+}
+
+
+#sources-section-1-text {
+
+
+   padding-left: 14rem;
+   padding-top: 10rem;
+
+
+}
+#sources-preview-styles {
+   padding-top: 3rem;
+   justify-content: center !important;
+}
+.sources-preview-container {
+   align-content: space-between;
+   height: 56rem;
+
+
+}
+
+
+#studiyoPrev {
+   background-image: none;
+   background-size: cover;
+   /* Scale the background image to cover the entire container */
+   background-position: center;
+
+
+}
+
+
+.case-preview-text {
+   width: 32rem;
+   align-content: space-between 2.19rem !important;
+}
+
+
+.sources-preview {
+   padding-top: 4.56rem;
+   padding-bottom: 3.94rem !important;
+   padding-left: 5.94rem !important;
+   padding-left: 6.42rem !important;
+   background-color: white;
+   color: black !important;
+   height: 24rem;
+   width: 70rem !important;
+   border-radius: 2.5rem !important;
+   position: relative;
+}
+.caseCTA {
+   border-radius: 40rem !important;
+   padding: 1rem 2.5rem !important;
+
+
+}
+#studiyoCTA {
+   background: skyblue;
+   color: white;
+   font-weight: 500;
+}
+.image-wrapper {
+
+
+   width: 18.4375rem;
+   height: 25.75rem;
+   /* Make the image wrapper full height of the card */
+   overflow: hidden !important;
+   /* Clip the image within the wrapper */
+   z-index: -100;
+   transform: translateY(5%) !important;
+   background-color: white;
+}
+.wrap {
+   margin-top: -4.5rem !important;
+   width: 18.4375rem;
+   height: 24rem;
+   overflow: hidden !important;
+}
+.clipped-image {
+   /* Make the image full width of the wrapper */
+   height: 100%;
+   width: 100%;
+   scale: 100%;
+   /* Allow the image to maintain its aspect ratio */
+
+
+   /* Position the image absolutely within the wrapper */
+   object-fit: none;
+   /* Maintain aspect ratio and cover the entire wrapper */
+   padding-left: 1.5rem !important;
+   transform: translateY(7%);
+  
+       /* Center the image vertically */
+
+
+
+
+       /* Adjust the vertical position */
+}
+
+
+/* sources styling END */
