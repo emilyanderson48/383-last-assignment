@@ -54,14 +54,28 @@ h3 {
 }
 /* body styling START */
 #landing-section-1 {
-   background: lightyellow;
+   background: white;
    height: 48rem;
    padding: 6rem 12rem;
 }
 #landing-section-2 {
-   background: lightcyan;
+   background: black;
+   color: white;
    height: 48rem;
    padding: 6rem 12rem;
+}
+
+#landing-section-2 p {
+   padding-top: 18rem;
+}
+#landing-section-3 {
+   background: skyblue;
+   color: black;
+   height: 48rem;
+   padding: 6rem 12rem;
+}
+#landing-section-3 p {
+ padding-top: 12rem;
 }
 #landing-section-2 h3 {
  font-size: 1.5rem!important;
@@ -69,8 +83,9 @@ h3 {
 }
 /* body styling END */
 #footer {
-   height: 20rem;
-   background-color: skyblue;
+   height: 16rem;
+   background-color: rgb(20, 170, 73);
+   color: white;
    padding: 4rem 8rem;
 
 }
@@ -166,34 +181,30 @@ font-size: 2rem!important;
 }
 .image-wrapper {
 
-
-   width: 18.4375rem;
-   height: 25.75rem;
+   width: 30rem;
    /* Make the image wrapper full height of the card */
    overflow: hidden !important;
    /* Clip the image within the wrapper */
    z-index: -100;
-   transform: translateY(5%) !important;
-   background-color: white;
+   transform: translateY(20%) !important;
+   background-color: red;
 }
 .wrap {
    margin-top: -4.5rem !important;
-   width: 18.4375rem;
-   height: 24rem;
+   width: 40rem;
    overflow: hidden !important;
 }
 .clipped-image {
    /* Make the image full width of the wrapper */
-   height: 100%;
-   width: 100%;
-   scale: 100%;
+  
+   scale: 75%;
    /* Allow the image to maintain its aspect ratio */
 
 
    /* Position the image absolutely within the wrapper */
    object-fit: none;
    /* Maintain aspect ratio and cover the entire wrapper */
-   padding-left: 1.5rem !important;
+
    transform: translateY(7%);
   
        /* Center the image vertically */
@@ -204,5 +215,43 @@ font-size: 2rem!important;
        /* Adjust the vertical position */
 }
 
+.source-img-prev {
+   
+}
 
+#source2CTA {
+   background-color:  rgb(20, 170, 73);
+   color: white;
+}
 /* sources styling END */
+
+#footer h4 {
+   font-size: 1rem;
+   margin-top: -.5rem;
+}
+
+#footer h3 {
+   font-weight: 700;
+   font-size: 1.75rem!important;
+}
+
+#footer h5 {
+   font-weight: 500;
+   font-size: 1.25rem;
+}
+
+#footer a {
+   color: white!important;
+}
+
+
+#footer a:hover {
+   color: white!important;
+   text-decoration: underline!important;
+}
+
+.footer-links {
+   display: flex; /* Use flexbox */
+   flex-direction: row; /
+
+}
