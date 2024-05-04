@@ -52,6 +52,9 @@ h3 {
 .bold {
    font-weight: 700;
 }
+.section-1-p {
+   padding-top: 4rem ;
+}
 /* body styling START */
 #landing-section-1 {
    background: white;
